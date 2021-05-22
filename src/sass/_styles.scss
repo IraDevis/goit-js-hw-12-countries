@@ -1,19 +1,20 @@
 body {
+  padding: 40px;
   background-color: antiquewhite;
 }
 
 .search-form {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-left: 40px;
 }
 
 .search-input {
+  margin-top: 5px;
   height: 40px;
-  width: 380px;
-  border: 2px, solid;
-
+  width: 360px;
+  outline: none;
+  border: 3px, solid;
+  border-radius: 5px;
   border-color: purple;
 }
 
@@ -28,13 +29,14 @@ body {
   padding-top: 20px;
 }
 
-.card-list {
+.list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .country-title {
   margin: 0;
-  padding-left: 40px;
 }
 
 .flag {
@@ -43,6 +45,7 @@ body {
 }
 
 .country-list {
+  margin: 0;
   padding: 0;
-  margin-left: 60px;
+  margin-left: 20px;
 }
