@@ -2,18 +2,20 @@ body {
   background-color: antiquewhite;
 }
 
-.search-input {
+.search-form {
   margin-top: 20px;
   margin-left: 20px;
+}
+
+.search-input {
   height: 40px;
-  width: 250px;
+  width: 270px;
   border: 2px, solid;
 
   border-color: purple;
 }
 
-.search-title {
-  margin-left: 20px;
-  margin-bottom: 0px;
+.search-label {
+  font-weight: bold;
   color: purple;
 }
