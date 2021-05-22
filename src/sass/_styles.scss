@@ -6,12 +6,12 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .search-input {
   height: 40px;
-  width: 270px;
+  width: 380px;
   border: 2px, solid;
 
   border-color: purple;
@@ -20,4 +20,24 @@ body {
 .search-label {
   font-weight: bold;
   color: purple;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.card-list {
+  list-style: none;
+}
+
+.country-title {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.flag {
+  margin-left: 20px;
+  height: 120px;
 }
