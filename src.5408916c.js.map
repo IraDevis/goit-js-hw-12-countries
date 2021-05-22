@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["refs","input","document","querySelector","fetch","country"],"mappings":";;;AAMA,aANA,QAAA,oBAEA,IAAMA,EAAO,CACTC,MAAOC,SAASC,cAAc,KAGlCC,MAAMC","file":"src.5408916c.js","sourceRoot":"../src","sourcesContent":["import './sass/main.scss';\n\nconst refs = {\n    input: document.querySelector('')\n}\n\nfetch(country)"]}
